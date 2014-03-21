@@ -1,42 +1,43 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-$('.center').click(function game() {
+function game() {
     var user = prompt("Where do you want to go? NORTH, WEST, EAST, SOUTH?").toUpperCase();
     switch (user) {
-        case 'NORTH':
-            console.log("Nothing there!");
+        case "NORTH":
+            alert("Nothing there!");
             break;
         case 'SOUTH':
-            console.log("Nothing there either");
+            alert("Nothing there either");
             break;
         case 'EAST':
             var east = prompt("You really want to go east??? YES or NO").toUpperCase();
             if (east === "YES") {
                 var eastt = prompt("Surely east??").toUpperCase();
                 if (east === "YES" && eastt === "YES") {
-                    console.log("Wow, going east ...");
+                    alert("Wow, going east ...");
                 } else
-                    ("Gtfo...");
+                    alert("You wrote some shit after 2 yeses");
             } else
-                ("Gtfo!");
+                alert("You wrote some shit after first yes");
             break;
         case 'WEST':
             var west = prompt("You want to go west for sure? YES or NO?").toUpperCase();
             if (west === "YES") {
-                console.log("WEST BEST BRO!");
+                alert("WEST BEST BRO!");
                 var westt = prompt("I think you are making right choice! YES or NO?").toUpperCase();
                 if (west === "YES" || westt === "YES") {
-                    console.log("Lucky you!");
+                    alert("Lucky you!");
                 }
             } else
-                ("Baaaaah!");
+                alert("Baaaaah!");
             break;
         default:
-            console.log("Game over!");
+            alert("Game over!");
             break;
     }
-});
+}
 
+//$(document).ready(function() {
+//    $('.center').click(function(game) {
+//
+//    }
+//    );
+//});
