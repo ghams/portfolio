@@ -1,5 +1,5 @@
 body {
-    background-color: #b4f4ff;
+    background-color: #ADDDFF;
 }
 
 .center {
@@ -12,6 +12,23 @@ body {
     margin-left: -50px;
     margin-top: -25px;
     cursor: pointer;
-    //border: none;
+    border: none;
     background: none;
+}
+
+/*#textBox {
+    background: #808080;
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    top: 55%;
+    left: 40%;
+    margin-left: -5%;
+    margin-top: 30px;
+}*/
+
+#intro {
+    font-size: 12px;
+    position: fixed;
+    bottom: 2%;
 }
