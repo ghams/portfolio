@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-Feb-2014, 21:09:30
+    Author     : Dani
+*/
+
+body {
+    background-color: #b4f4ff;
+    font-family: Century Gothic;
+    height: 100%;
+    //font-size: 34px;
+}
+
+#page {
+    //background-color: #b4f4ff;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cv {
+    border-left: 2px solid rosybrown;
+    font-size: 51px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#name {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 34px;
+}
+
+#address {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
+#contact {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
+#work {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
+#edu {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
+#skills {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
+#addinf {
+    width: 50%;
+    margin: 0 auto;
+    border-left: 2px solid rosybrown;
+    font-size: 19px;
+}
+
