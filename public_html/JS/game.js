@@ -1,17 +1,26 @@
+//$(document).ready(function() {
+//    $('.test').draggable();
+//});
+
+$(document).ready(function() {
+    $('.center').click(function() {
+        game();
+    });
+});
+
 function game() {
     var options1 = "\n - [1] SCREAM\n\ - [2] SCRATCH YOUR BALLS\n\ - [3] LOOK AROUND";
-    
+
     var options2 = "\n - [1] YES\n - [2] NO";
     var options3 = "";
     var options4 = "";
-    
     var user = prompt("You woke up in a forest without pants. What do you do?" + "\n" + options1 + "\n\n" + "1, 2 or 3?");
-    
+
     switch (user) {
         case "1":
             var scream1 = prompt("Why would you scream??? You stupid?" + options2 + "\n\n" + "1,2 or 3?");
             if (scream1 === "1") {
-                
+
             }
             //alert("Why would you scream???");
             break;
@@ -63,9 +72,3 @@ function game() {
 //    }
 //}
 
-//$(document).ready(function() {
-//    $('.center').click(function(game) {
-//
-//    }
-//    );
-//});
