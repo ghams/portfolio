@@ -2,15 +2,23 @@ body {
     background-color: #ADDDFF;
 }
 
+@font-face {
+    font-family: scary;
+    src: url('fonts/scary.eot');
+    src: local('scary'), url(fonts/scary.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .center {
     position: fixed;
     font-family: scary;
     font-size: 25px;
     text-transform: uppercase;
     top: 50%;
-    left: 40%;
-    margin-left: -50px;
-    margin-top: -25px;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -16px;
     cursor: pointer;
     border: none;
     background: none;
