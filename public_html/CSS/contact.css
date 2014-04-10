@@ -30,3 +30,11 @@ body {
 #but {
     padding: 10px;
 }
+
+#footer {
+    position: fixed;
+    bottom:5px;
+    width: 100%;
+    left:0px;
+    height:25px;
+}
