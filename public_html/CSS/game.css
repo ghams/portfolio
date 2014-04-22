@@ -5,7 +5,6 @@ body {
 #font-face {
     font-family: scary;
     //src: url('fonts/scary.eot');
-    
     src: local('scary'), url(fonts/scary.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
@@ -18,8 +17,8 @@ body {
     text-transform: uppercase;
     top: 50%;
     left: 50%;
-    margin-left: -150px;
-    //margin-left: -225px;
+    //margin-left: -150px;
+    margin-left: -225px;
     margin-top: -16px;
     cursor: pointer;
     border: none;
